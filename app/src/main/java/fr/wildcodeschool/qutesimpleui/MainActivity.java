@@ -51,11 +51,11 @@ public class MainActivity extends AppCompatActivity {
                 String congrat = textCongrat.getText().toString();
 
                 if(firstname.matches("")|(lastname.matches(""))){
-                    Toast.makeText(MainActivity.this, "Please fill your firstname and lastname !", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, R.string.error_message, Toast.LENGTH_SHORT).show();
                 }
 
                 else{
-                    String mgs = "Congratulation " + firstname + " " + lastname;
+                    String mgs = String.format(getString(R.string.congrat_message), firstname, lastname);
                     textCongrat.setText(mgs);
                    //Toast.makeText(MainActivity.this, "Congratulation " + firstname + " " + lastname, Toast.LENGTH_SHORT).show();
                 }

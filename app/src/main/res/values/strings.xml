@@ -6,4 +6,6 @@
     <string name="text_welcome">Welcome to the Wild Code School</string>
     <string name="check_wilder">Yes, I want to be a Wilder !</string>
     <string name="txt_congrat">Congratulation</string>
+    <string name="congrat_message">Congratulation %s %s</string>
+    <string name="error_message">Please fill your firstname and lastname !</string>
 </resources>
