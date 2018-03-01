@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 String lastname = editLastname.getText().toString();
                 TextView textCongrat = findViewById(R.id.text_congrat);
                 String congrat = textCongrat.getText().toString();
+
                 if(firstname.matches("")|(lastname.matches(""))){
                     Toast.makeText(MainActivity.this, "Please fill your firstname and lastname !", Toast.LENGTH_SHORT).show();
                 }

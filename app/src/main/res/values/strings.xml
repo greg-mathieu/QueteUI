@@ -5,4 +5,5 @@
     <string name="button_accept">Accept</string>
     <string name="text_welcome">Welcome to the Wild Code School</string>
     <string name="check_wilder">Yes, I want to be a Wilder !</string>
+    <string name="txt_congrat">Congratulation</string>
 </resources>
