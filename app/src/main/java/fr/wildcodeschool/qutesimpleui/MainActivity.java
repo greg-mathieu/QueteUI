@@ -23,9 +23,17 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
                 EditText editFirstname = findViewById(R.id.edit_firstname);
                 EditText editLastname = findViewById(R.id.edit_lastname);
+                Button buttonAccept = findViewById(R.id.button_accept);
                 if (isChecked){
                     editFirstname.setEnabled(true);
                     editLastname.setEnabled(true);
+                    buttonAccept.setEnabled(true);
+
+                }
+                else {
+                    editFirstname.setEnabled(false);
+                    editLastname.setEnabled(false);
+                    buttonAccept.setEnabled(false);
                 }
 
             }
